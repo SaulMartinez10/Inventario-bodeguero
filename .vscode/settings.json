@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL 15",
+            "group": "servers",
+            "database": "postgres",
+            "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL 15",
+            "group": "servers",
+            "database": "ProyectoGraduacion",
+            "username": "postgres"
+        }
+    ],
+    "php.stubs": [
+        "*",
+        "pgsql"
+    ]
+}
